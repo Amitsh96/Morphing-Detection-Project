@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Identify the exact parsing state machine issue",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Fix the LR parser state tables systematically",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Ensure parameter parsing transitions work correctly",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Test the complete fix",
+    "status": "completed",
+    "id": "4"
+  }
+]

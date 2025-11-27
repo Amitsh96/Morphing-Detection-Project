@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Create 3AC data structures in codegen.h",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Implement basic 3AC framework in codegen.c",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Add temporary variable and label management",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Implement expression translation to 3AC",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Implement control flow translation (if/else, loops)",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Implement function call support",
+    "status": "pending",
+    "id": "6"
+  },
+  {
+    "content": "Add short-circuit evaluation for logical operators",
+    "status": "pending",
+    "id": "7"
+  },
+  {
+    "content": "Integrate 3AC generation into Main.c",
+    "status": "completed",
+    "id": "8"
+  },
+  {
+    "content": "Test with all input files",
+    "status": "completed",
+    "id": "9"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Identify why web version shows mobile interface instead of original web design",
+    "status": "completed",
+    "activeForm": "Identifying why web version shows mobile interface instead of original web design"
+  },
+  {
+    "content": "Fix web routing to show proper web components",
+    "status": "in_progress",
+    "activeForm": "Fixing web routing to show proper web components"
+  },
+  {
+    "content": "Update web entry point to match original design",
+    "status": "pending",
+    "activeForm": "Updating web entry point to match original design"
+  },
+  {
+    "content": "Ensure original web UI components are working",
+    "status": "pending",
+    "activeForm": "Ensuring original web UI components are working"
+  }
+]

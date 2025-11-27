@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Add debug output to pinpoint exact crash location in parser",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Identified crash in create_param_node function",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Fix the segmentation fault in create_param_node",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Test successful compilation of my_test.txt",
+    "status": "pending",
+    "id": "4"
+  }
+]

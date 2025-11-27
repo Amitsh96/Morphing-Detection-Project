@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Remove custom tabs feature",
+    "status": "in_progress",
+    "activeForm": "Removing custom tabs feature"
+  },
+  {
+    "content": "Implement todo tags/categories system",
+    "status": "pending",
+    "activeForm": "Implementing todo tags/categories system"
+  },
+  {
+    "content": "Add todo editing functionality",
+    "status": "pending",
+    "activeForm": "Adding todo editing functionality"
+  },
+  {
+    "content": "Add todo reordering (drag & drop)",
+    "status": "pending",
+    "activeForm": "Adding todo reordering (drag & drop)"
+  }
+]

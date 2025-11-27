@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Analyze parser state transitions for parameter rule handling",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Identify specific states in yytable that handle 'PARAMETER type_spec ID' vs 'PARAMETER type_spec ':' ID'",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Find the root cause of why parser fails on 'par1 int:x' input",
+    "status": "completed",
+    "id": "3"
+  }
+]

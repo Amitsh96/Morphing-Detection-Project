@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create public team view page (/teams/[id]/public)",
+    "status": "pending",
+    "activeForm": "Creating public team view page"
+  },
+  {
+    "content": "Generate shareable URLs with share button",
+    "status": "pending",
+    "activeForm": "Generating shareable URLs"
+  },
+  {
+    "content": "Implement public API route (no auth required)",
+    "status": "pending",
+    "activeForm": "Implementing public API route"
+  },
+  {
+    "content": "Style public view (read-only, no edit capabilities)",
+    "status": "pending",
+    "activeForm": "Styling public view"
+  },
+  {
+    "content": "Test public URLs work without authentication",
+    "status": "pending",
+    "activeForm": "Testing public URLs"
+  }
+]

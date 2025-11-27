@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Set up API-Football integration",
+    "status": "completed",
+    "activeForm": "Setting up API-Football integration"
+  },
+  {
+    "content": "Create player sync job",
+    "status": "in_progress",
+    "activeForm": "Creating player sync job"
+  },
+  {
+    "content": "Add photo URLs and metadata to Player model",
+    "status": "completed",
+    "activeForm": "Adding photo URLs and metadata to Player model"
+  },
+  {
+    "content": "Implement caching strategy",
+    "status": "pending",
+    "activeForm": "Implementing caching strategy"
+  },
+  {
+    "content": "Add manual sync trigger (admin)",
+    "status": "pending",
+    "activeForm": "Adding manual sync trigger"
+  }
+]

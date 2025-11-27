@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Debug team formation validation error",
+    "status": "completed",
+    "activeForm": "Completed debugging team formation validation error"
+  },
+  {
+    "content": "Test the team building fix",
+    "status": "pending",
+    "activeForm": "Testing the team building fix"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Remove codegen.h and codegen.c files",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Revert Main.c to original state",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Revert build.sh to original state",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Revert Makefile to original state",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Test that compiler still works without Phase 1 changes",
+    "status": "completed",
+    "id": "5"
+  }
+]

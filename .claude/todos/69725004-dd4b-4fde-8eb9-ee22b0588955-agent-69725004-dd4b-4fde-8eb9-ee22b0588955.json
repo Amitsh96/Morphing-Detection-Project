@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Add edit profile functionality with first name and last name fields",
+    "status": "completed",
+    "activeForm": "Adding edit profile functionality with first name and last name fields"
+  },
+  {
+    "content": "Add password change functionality with confirmation",
+    "status": "completed",
+    "activeForm": "Adding password change functionality with confirmation"
+  },
+  {
+    "content": "Update database schema to store first name and last name",
+    "status": "completed",
+    "activeForm": "Updating database schema to store first name and last name"
+  },
+  {
+    "content": "Update signup form with first name, last name, and confirm password",
+    "status": "in_progress",
+    "activeForm": "Updating signup form with first name, last name, and confirm password"
+  },
+  {
+    "content": "Implement password requirements validation",
+    "status": "completed",
+    "activeForm": "Implementing password requirements validation"
+  }
+]

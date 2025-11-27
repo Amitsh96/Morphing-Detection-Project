@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Fix modal CSS/z-index display issue",
+    "status": "completed",
+    "activeForm": "Fixing modal CSS/z-index display issue"
+  },
+  {
+    "content": "Create Team Builder page with formation grid",
+    "status": "completed",
+    "activeForm": "Creating Team Builder page with formation grid"
+  },
+  {
+    "content": "Implement player selection modal/sidebar",
+    "status": "completed",
+    "activeForm": "Implementing player selection modal/sidebar"
+  },
+  {
+    "content": "Add formation validation (exactly 11 unique players)",
+    "status": "pending",
+    "activeForm": "Adding formation validation (exactly 11 unique players)"
+  },
+  {
+    "content": "Build position slot assignment logic",
+    "status": "completed",
+    "activeForm": "Building position slot assignment logic"
+  },
+  {
+    "content": "Add formation switcher (4-3-3, 4-4-2, etc.)",
+    "status": "completed",
+    "activeForm": "Adding formation switcher (4-3-3, 4-4-2, etc.)"
+  }
+]

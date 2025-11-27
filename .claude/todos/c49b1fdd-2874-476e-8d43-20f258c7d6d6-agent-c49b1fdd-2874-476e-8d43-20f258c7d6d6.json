@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Analyze project requirements from PDFs",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Examine current compiler implementation",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Test compiler with provided test files",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Verify AST generation meets specifications",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Verify 3-address code generation meets specifications",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Create comprehensive project guide",
+    "status": "completed",
+    "id": "6"
+  }
+]

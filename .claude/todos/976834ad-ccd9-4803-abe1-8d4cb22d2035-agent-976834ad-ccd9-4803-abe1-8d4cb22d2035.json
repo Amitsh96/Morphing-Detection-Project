@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Initialize Next.js 14 project with TypeScript",
+    "status": "in_progress",
+    "activeForm": "Initializing Next.js 14 project with TypeScript"
+  },
+  {
+    "content": "Configure Tailwind CSS",
+    "status": "pending",
+    "activeForm": "Configuring Tailwind CSS"
+  },
+  {
+    "content": "Set up ESLint and Prettier with strict rules",
+    "status": "pending",
+    "activeForm": "Setting up ESLint and Prettier with strict rules"
+  },
+  {
+    "content": "Configure Husky for pre-commit hooks",
+    "status": "pending",
+    "activeForm": "Configuring Husky for pre-commit hooks"
+  },
+  {
+    "content": "Set up strict TypeScript configuration",
+    "status": "pending",
+    "activeForm": "Setting up strict TypeScript configuration"
+  },
+  {
+    "content": "Create basic folder structure for the app",
+    "status": "pending",
+    "activeForm": "Creating basic folder structure for the app"
+  }
+]

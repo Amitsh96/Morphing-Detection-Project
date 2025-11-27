@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create public team view page (/teams/[id]/public)",
+    "status": "completed",
+    "activeForm": "Creating public team view page"
+  },
+  {
+    "content": "Implement public API route (no auth required)",
+    "status": "completed",
+    "activeForm": "Implementing public API route"
+  },
+  {
+    "content": "Add share button to My Teams page",
+    "status": "completed",
+    "activeForm": "Adding share button to My Teams page"
+  },
+  {
+    "content": "Style public view (no edit capabilities)",
+    "status": "completed",
+    "activeForm": "Styling public view"
+  },
+  {
+    "content": "Test shareable URLs functionality",
+    "status": "in_progress",
+    "activeForm": "Testing shareable URLs functionality"
+  }
+]

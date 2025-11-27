@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Handle Unicode quotation marks in character literals",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Fix function rule to handle procedures without return types",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Handle missing _main_ function requirement",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Test final solution with original my_test.txt",
+    "status": "completed",
+    "id": "4"
+  }
+]

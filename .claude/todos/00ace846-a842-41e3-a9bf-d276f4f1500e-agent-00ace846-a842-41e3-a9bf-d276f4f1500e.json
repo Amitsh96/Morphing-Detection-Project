@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Identify which file is actually being parsed",
+    "status": "pending",
+    "id": "1"
+  },
+  {
+    "content": "Debug the specific syntax errors around the reported lines",
+    "status": "pending",
+    "id": "2"
+  },
+  {
+    "content": "Fix the remaining parser issues",
+    "status": "pending",
+    "id": "3"
+  }
+]
