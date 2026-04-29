@@ -56,6 +56,104 @@ def process_image(image):
 # ==========================================
 st.set_page_config(page_title="S-MAD: Morphing Attack Detection", layout="wide")
 
+st.markdown("""
+<style>
+/* ── Page & typography ── */
+html, body, [data-testid="stAppViewContainer"] {
+    background-color: #080D1A;
+}
+h1 {
+    font-size: 2.1rem !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.5px;
+    background: linear-gradient(90deg, #38BDF8 0%, #818CF8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.2rem !important;
+}
+h2, h3 {
+    font-weight: 600 !important;
+    color: #CBD5E1 !important;
+    letter-spacing: -0.2px;
+}
+
+/* ── Sidebar ── */
+[data-testid="stSidebar"] {
+    background-color: #0A1020 !important;
+    border-right: 1px solid #1E2D45;
+}
+[data-testid="stSidebar"] h1 {
+    font-size: 1.2rem !important;
+    background: linear-gradient(90deg, #38BDF8, #818CF8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ── Analyze button ── */
+div.stButton > button {
+    background: linear-gradient(135deg, #1D4ED8 0%, #0EA5E9 100%) !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    letter-spacing: 0.3px;
+    padding: 0.55rem 1.2rem !important;
+    transition: opacity 0.2s ease, transform 0.1s ease !important;
+    box-shadow: 0 4px 14px rgba(14, 165, 233, 0.35) !important;
+}
+div.stButton > button:hover {
+    opacity: 0.88 !important;
+    transform: translateY(-1px) !important;
+}
+div.stButton > button:active {
+    transform: translateY(0px) !important;
+}
+
+/* ── File uploader ── */
+[data-testid="stFileUploader"] {
+    border: 1.5px dashed #1E3A5F !important;
+    border-radius: 10px !important;
+    background-color: #0C1628 !important;
+    padding: 0.5rem !important;
+}
+
+/* ── Metric card ── */
+[data-testid="stMetric"] {
+    background-color: #0F1E35 !important;
+    border: 1px solid #1E3A5F !important;
+    border-radius: 10px !important;
+    padding: 1rem 1.2rem !important;
+}
+[data-testid="stMetricValue"] {
+    color: #38BDF8 !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+}
+
+/* ── Alerts (success / error) ── */
+[data-testid="stAlert"] {
+    border-radius: 8px !important;
+    border-width: 1px !important;
+    font-weight: 600 !important;
+}
+
+/* ── Divider ── */
+hr {
+    border-color: #1E2D45 !important;
+}
+
+/* ── Expander ── */
+details {
+    background-color: #0C1628 !important;
+    border: 1px solid #1E3A5F !important;
+    border-radius: 8px !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # --- Sidebar ---
 st.sidebar.title("System Overview")
 st.sidebar.info(
