@@ -2,7 +2,7 @@ import streamlit as st
 import torch
 from PIL import Image
 from torchvision import transforms
-from core_engine import load_all_systems, process_image, generate_cam # ייבוא ה"מנוע"
+from core_engine import load_all_systems, process_image, generate_cam 
 
 # ==========================================
 # 1. Page Config & Loading Assets
