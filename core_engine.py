@@ -2,10 +2,7 @@ import torch
 import torch.nn as nn
 from torchvision import models, transforms
 import numpy as np
-try:
-    from facenet_pytorch import MTCNN
-except ImportError:
-    MTCNN = None
+from facenet_pytorch import MTCNN
 from pytorch_grad_cam import GradCAM
 from pytorch_grad_cam.utils.model_targets import ClassifierOutputTarget
 from pytorch_grad_cam.utils.image import show_cam_on_image
