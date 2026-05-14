@@ -47,7 +47,7 @@ st.markdown("""
     <div class="smad-hero-inner">
         <div class="smad-icon">🛡️</div>
         <div>
-            <div class="smad-title">Advanced Ensemble Detection (Score-Level Fusion)</div>
+            <div class="smad-title">Morphing Attack Detection (Score-Level Fusion)</div>
             <div class="smad-subtitle">
                 Utilizes two parallel neural networks and extracts the maximum threat probability to determine authenticity.
             </div>
