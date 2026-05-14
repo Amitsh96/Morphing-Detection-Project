@@ -7,7 +7,7 @@ from core_engine import load_all_systems, process_image, generate_cam
 # ==========================================
 # 1. Page Config & Loading Assets
 # ==========================================
-st.set_page_config(page_title="S-MAD: Soft Ensemble", layout="wide", page_icon="🛡️")
+st.set_page_config(page_title="S-MAD: Ensemble Fusion", layout="wide", page_icon="🛡️")
 
 # טעינת קובץ העיצוב החיצוני
 with open("style.css", "r") as f:
@@ -34,7 +34,7 @@ with st.sidebar:
     <div class="sb-section-label">Ensemble Architecture</div>
     <div class="sb-chip">Model A (Hunter) <span>Full Image</span></div>
     <div class="sb-chip">Model B (Microscope) <span>Cropped ROI</span></div>
-    <div class="sb-chip">Decision Logic <span>Soft Voting (Avg)</span></div>
+    <div class="sb-chip">Decision Logic <span>Max Rule (Fusion)</span></div>
     <div class="sb-section-label">System Status</div>
     <div class="sb-status">
         <div class="dot {'dot-green' if sys_ready else 'dot-red'}"></div>
@@ -47,13 +47,13 @@ st.markdown("""
     <div class="smad-hero-inner">
         <div class="smad-icon">🛡️</div>
         <div>
-            <div class="smad-title">Advanced Ensemble Detection (Soft Voting)</div>
+            <div class="smad-title">Advanced Ensemble Detection (Score-Level Fusion)</div>
             <div class="smad-subtitle">
-                Utilizes two parallel neural networks and averages their predictions to determine authenticity.
+                Utilizes two parallel neural networks and extracts the maximum threat probability to determine authenticity.
             </div>
         </div>
     </div>
-    <div class="smad-pill">S-MAD Ensemble · v3.1</div>
+    <div class="smad-pill">S-MAD Ensemble · v4.0</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -103,14 +103,14 @@ if uploaded_file is not None:
 
                 st.divider()
 
-                # --- STEP C: Ensemble Logic (Soft Voting / Averaging) ---
+                # --- STEP C: Ensemble Logic (Score-Level Fusion / MAX Rule) ---
                 if img_cropped is not None:
-                    # שיערוך רך: ממוצע מדויק בין שני המודלים!
-                    ensemble_fake_prob = (prob_fake_full * 0.5) + (prob_fake_crop * 0.5)
+                    # שיערוך לפי חוק המקסימום: לוקחים את האיום הגבוה ביותר מבין שני המודלים
+                    ensemble_fake_prob = max(prob_fake_full, prob_fake_crop)
                 else:
                     ensemble_fake_prob = prob_fake_full
                 
-                # ההכרעה נקבעת לפי הממוצע!
+                # ההכרעה נקבעת לפי האיום המקסימלי
                 is_fake = ensemble_fake_prob > 50.0
                 
                 if is_fake:
